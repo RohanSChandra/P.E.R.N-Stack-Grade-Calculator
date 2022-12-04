@@ -1,0 +1,70 @@
+.mainFormSelect,
+.mainFormNumber,
+.mainFormButton {
+  font-family: "Poppins", sans-serif;
+}
+
+.firstLabel {
+  display: grid;
+  border-bottom: 1px solid black;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.secondLabel {
+  display: grid;
+  border-bottom: 1px solid black;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mainFormSelect,
+.mainFormNumber {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.mainForm {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.mainFormButton {
+  padding: 0.938rem 2rem;
+  border-radius: 8px;
+  background-color: #2d9bf0;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.responseMessage {
+  font-weight: 900;
+}
+
+@media only screen and (min-width: 62rem) {
+  .mainForm {
+    display: inline-block;
+  }
+
+  .firstLabel,
+  .secondLabel {
+    display: flex;
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+  .secondLabel {
+    margin-bottom: 4rem;
+  }
+
+  .markName,
+  .labelName {
+    margin-right: 2rem;
+  }
+  .mainFormSelect,
+  .mainFormNumber {
+    width: 100%;
+  }
+}
